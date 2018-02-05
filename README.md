@@ -194,6 +194,7 @@ The following control overrides are supported:
 
   ```js
   {
+    options: React.PropTypes.array, //same as 'fields' passed into QueryBuilder
     field: React.PropTypes.string, //field name corresponding to this Rule
     operator: React.PropTypes.string, //operator name corresponding to this Rule
     value: React.PropTypes.string, //value from the existing query representation, if any
